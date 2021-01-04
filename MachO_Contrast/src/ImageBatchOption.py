@@ -4,7 +4,7 @@ import numpy as np
 import cv2
 
 # 加载图片 读取彩色图像归一化且转换为浮点型
-image = cv2.imread('/Users/mc_pub/Desktop/Simulator.png', cv2.IMREAD_COLOR).astype(np.float32) / 255.0
+image = cv2.imread('/Users/chenhenian/Documents/MC/音乐会/20210103/DSC_3642的副本.JPG', cv2.IMREAD_COLOR).astype(np.float32) / 255.0
 
 # 颜色空间转换 BGR转为HLS
 hlsImg = cv2.cvtColor(image, cv2.COLOR_BGR2HLS)
