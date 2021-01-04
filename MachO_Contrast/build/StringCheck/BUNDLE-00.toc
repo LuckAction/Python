@@ -1,0 +1,3 @@
+([('StringCheck',
+   '/Users/mc_pub/Documents/MC/Python/MachO_Contrast/dist/StringCheck',
+   'EXECUTABLE')],)
